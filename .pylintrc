@@ -11,7 +11,8 @@ disable=
       W0221, #ARGUMENTS-DIFFER
       R0801, #DUPLICATE-CODE
       C0415, #IMPORT-OUTSIDE-TOPLEVEL
-      W0611 #Unused render imported
+      W0611, #Unused render imported
+      E0307  #invalid-str-returned
 # Analyse import fallback blocks. This can be used to support both Python 2 and
 # 3 compatible code, which means that the block might have code that exists
 # only in one or another interpreter, leading to false positives when analysed.
