@@ -23,6 +23,7 @@ openai==1.59.7
 pillow==11.0.0
 platformdirs==4.3.6
 pre_commit==4.0.1
+psycopg2==2.9.10
 pydantic==2.10.5
 pydantic_core==2.27.2
 pylint==3.3.3
